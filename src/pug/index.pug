@@ -10,20 +10,25 @@ html(lang="en")
     body
         div.nav-container
             div.row
+                div.nav-item.col-xs-1.col-sm-1.col-md-1.col-lg-1
+                    img(src="../images/icon.png", alt="")#icon
+                div.nav-item.col-xs-6.col-sm-6.col-md-6.col-lg-6.inner-addon.left-addon
+                    span.glyphicon.glyphicon-search   
+                    input(type="text" placeholder="Search for more").form-control#input1
+                div
                 div.nav-item.col-xs-1.col-sm-1.col-md-1.col-lg-1 
-                    div.btn Logo
-                div.nav-item.col-xs-6.col-sm-6.col-md-6.col-lg-6
-                    input(type="text", placeholder="Search for more").full-length.rounded.inner-addon.left-addon.glyphicon.glyphicon-user
+                    div.btn 
+                        a(href="#") Home
                 div.nav-item.col-xs-1.col-sm-1.col-md-1.col-lg-1 
-                    div.btn Home
+                    div.btn 
+                        a(href="#") Following
                 div.nav-item.col-xs-1.col-sm-1.col-md-1.col-lg-1 
-                    div.btn Following
-                div.nav-item.col-xs-1.col-sm-1.col-md-1.col-lg-1 
-                    div.btn Melika
+                    div.btn 
+                        a(href="#") Melika
         div.container
             div.row
                 div.col-xs-6.col-sm-6.col-md-4.col-lg-3
-                    img.img-fluid.rounded(src="../images/img1.jpg", alt="image1")
+                    img.rounded(src="../images/img1.jpg", alt="image1")
                 div.col-xs-6.col-sm-6.col-md-4.col-lg-3
                     img.rounded(src="../images/img2.jpg", alt="image2")
                 div.col-xs-6.col-sm-6.col-md-4.col-lg-3
@@ -40,6 +45,23 @@ html(lang="en")
                     img.rounded(src="../images/img8.jpg", alt="image8")
                    
                    
+
+//- div.nav-item.col-xs-6.col-sm-6.col-md-6.col-lg-6.inner-addon.left-addon
+//-                     span.glyphicon.glyphicon-search   
+//-                     input(type="text" placeholder="Search for more").form-control#input1
+
+
+
+
+
+
+
+
+
+//- <div class="input-group">
+//-     <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+//-     <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+//-   </div>
 
 
 
@@ -90,4 +112,9 @@ html(lang="en")
 
 //-         script(src="../js/main.js")
     
-
+//- div.nav-item.col-xs-6.col-sm-6.col-md-6.col-lg-6
+                //-     input(type="text", placeholder="Search for more").full-length.rounded.inner-addon.left-addon.glyphicon.glyphicon-user
+                //- div.nav-item.col-xs-6.col-sm-6.col-md-6.col-lg-6.input-group
+                //-     span.input-group-addon
+                //-         i.glyphicon.glyphicon-user
+                //-     input(type="text", placeholder="Search for more").form-control

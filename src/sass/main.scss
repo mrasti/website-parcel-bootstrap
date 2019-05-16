@@ -1,8 +1,5 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
-// @import "./header.scss";
-// @import  "partials/navbar.scss";
-
 body {
     margin-top: 20px;
 }
@@ -14,21 +11,63 @@ img {
     margin: 10px;
 } 
 
-.full-length{
-    width: 100%;
-}
-
 .nav-container {
     margin: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    // vertical-align: middle;
+    justify-content: space-between;
 }
 
-input{
+#input1{
     background-color: #EFEFEF;
     border-style: none;
     height: 40px;
     padding: 10px;
     font-size: 19px;
 }
+
+#icon{
+    width:65%;
+}
+
+a{
+    color: #495057;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+a:hover{
+    color: #495057;
+    text-decoration: none;
+}
+
+
+div.btn:hover{
+    background-color: #EFEFEF;
+    border-radius: 20px;
+}
+
+img:not(#icon){
+    
+}
+
+// .has-search .form-control {
+//     padding-left: 2.375rem;
+// }
+
+// .has-search .form-control-feedback {
+//     position: absolute;
+//     z-index: 2;
+//     display: block;
+//     width: 2.375rem;
+//     height: 2.375rem;
+//     line-height: 2.375rem;
+//     text-align: center;
+//     pointer-events: none;
+//     color: #aaa;
+// }
+// }
 
 
 //   .hovereffect {
