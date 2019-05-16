@@ -1,0 +1,51 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// @import "./header.scss";
+// @import  "partials/navbar.scss";
+
+body {
+    margin-top: 20px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+} 
+
+.full-length{
+    width: 100%;
+}
+
+.nav-container {
+    margin: 30px 20px;
+}
+
+input{
+    background-color: #EFEFEF;
+    border-style: none;
+    height: 40px;
+    padding: 10px;
+    font-size: 19px;
+}
+
+
+//   .hovereffect {
+//     // overflow:hidden;
+//     text-align:center;
+//     cursor:default;
+//     }
+
+//     .hovereffect {
+//         background-color:rgba(0,0,0,0.5);
+//         -webkit-transition:all .4s ease-in-out;
+//         transition:all .4s ease-in-out
+//         }
+        
+//         .hovereffect img {
+//         display:block;
+//         position:relative;
+//         -webkit-transition:all .4s linear;
+//         transition:all .4s linear;
+//         }
