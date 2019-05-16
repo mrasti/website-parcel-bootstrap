@@ -1,0 +1,1 @@
+{"version":3,"sources":["../sass/style.scss"],"names":[],"mappings":"AAAA;EACI;;;AAGJ;EACI","file":"style.28097f41.css","sourceRoot":"../src/pug","sourcesContent":[".container{\n    color: red;\n}\n\nli{\n    font-size: 30px;\n}"]}
