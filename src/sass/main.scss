@@ -42,49 +42,31 @@ a:hover{
     text-decoration: none;
 }
 
-
 div.btn:hover{
     background-color: #EFEFEF;
-    border-radius: 20px;
+    border-radius: 40px;
 }
 
-img:not(#icon){
-    
+.photo {
+    position:relative;
 }
 
-// .has-search .form-control {
-//     padding-left: 2.375rem;
-// }
+.photo img {
+    width:100%;
+    vertical-align:top;
+}
 
-// .has-search .form-control-feedback {
-//     position: absolute;
-//     z-index: 2;
-//     display: block;
-//     width: 2.375rem;
-//     height: 2.375rem;
-//     line-height: 2.375rem;
-//     text-align: center;
-//     pointer-events: none;
-//     color: #aaa;
-// }
-// }
+.photo:after {
+    content:'\A';
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(143,123,144,0.3);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
 
-
-//   .hovereffect {
-//     // overflow:hidden;
-//     text-align:center;
-//     cursor:default;
-//     }
-
-//     .hovereffect {
-//         background-color:rgba(0,0,0,0.5);
-//         -webkit-transition:all .4s ease-in-out;
-//         transition:all .4s ease-in-out
-//         }
-        
-//         .hovereffect img {
-//         display:block;
-//         position:relative;
-//         -webkit-transition:all .4s linear;
-//         transition:all .4s linear;
-//         }
+.photo:hover:after {
+    opacity:1;
+}
