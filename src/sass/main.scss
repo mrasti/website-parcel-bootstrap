@@ -4,14 +4,11 @@ body {
     margin-top: 20px;
 }
 
-// .photo2{
-//     margin: 0px 10px;
-// }
-
 img {
     display: block;
     max-width: 100%;
     height: auto;
+    border-radius: 50px;
 } 
 
 .nav-container {
@@ -52,6 +49,7 @@ div.btn:hover{
 
 .photo {
     position:relative;
+    margin: 10px 0px;
 }
 
 .photo img {
